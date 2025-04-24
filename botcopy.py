@@ -3,8 +3,8 @@ from telethon.sync import TelegramClient, events
 import re
 
 # Dados do bot
-api_id = SUA_API_ID
-api_hash = 'SUA_API_HASH'
+api_id = 24060062
+api_hash = '91f380f5c8fa3586729b24e76a66d667'
 bot_username = 'lima48927'  # Seu bot
 grupo_origem = -2691858749
 grupo_destino = -2126433918
