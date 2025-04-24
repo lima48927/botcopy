@@ -2,8 +2,8 @@ from telethon.sync import TelegramClient, events
 import re
 
 # Dados do bot
-api_id = 24080662
-api_hash = '91af588f5c8faf3586729b042e76a66d67'
+api_id = 24060062
+api_hash = '91f380f5c8fa3586729b24e76a66d667'
 bot_token = '8049772298:AAEZtGExb1DLcxUkjeUmIRLx7pq49if1tTU'
 bot_username = 'lima48927'
 grupo_origem = -2691858749
