@@ -18,7 +18,7 @@ client.start(bot_token=bot_token)
 def substituir_links(texto):
     return re.sub(r'https?://\S+', link_customizado, texto)
 
-@client.on(events.NewMessage(chats=grupo_origem))
+@client.on(events.NewMessage(chats=[grupo_origem]))
 async def copiar_mensagem(event):
     if event.message.message:
         nova_mensagem = substituir_links(event.message.message)
